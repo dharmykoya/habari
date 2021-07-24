@@ -1,5 +1,3 @@
-import PropTypes from "prop-types";
-
 const ArrowDownIcon = ({
   style = {},
   fill = "white",
@@ -22,7 +20,5 @@ const ArrowDownIcon = ({
     <path d="M4.375 6.25L7.5 9.375L10.625 6.25H4.375Z" fill={fill} />
   </svg>
 );
-
-ArrowDownIcon.propTypes = {};
 
 export default ArrowDownIcon;
