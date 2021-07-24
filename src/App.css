@@ -2,9 +2,14 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /* font-size: 15px; */
+  font-size: 62.5%;
+  font-family: "Poppins" !important;
+}
+
+body {
+  font-size: 1.3rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
