@@ -6,7 +6,7 @@ const SalesMan = () => (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <g clip-path="url(#clip0)">
+    <g clipPath="url(#clip0)">
       <path
         d="M35.1719 15.8594V19.3047H34.4844C34.0703 19.3047 33.6562 19.3984 33.2812 19.5859L32.414 15.8594H35.1719Z"
         fill="#C4304C"
