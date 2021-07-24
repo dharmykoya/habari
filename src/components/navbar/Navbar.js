@@ -1,6 +1,6 @@
 import { useState } from "react";
-import ArrowDownIcon from "../../assests/icons/ArrowDownIcon";
-import flag from "../../assests/images/navbar/Flag.png";
+import ArrowDownIcon from "../../assets/icons/ArrowDownIcon";
+import flag from "../../assets/images/navbar/Flag.png";
 import Menu from "../../components/menu/Menu";
 import "./Navbar.css";
 

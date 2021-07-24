@@ -6,10 +6,36 @@
 
 .banner-span {
   color: #0077ff;
-  border-bottom: 0.5rem solid #B7D9FF;
+  border-bottom: 0.5rem solid #b7d9ff;
   background-color: #e5f1ff;
 }
 
 .text-17 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
+}
+
+.text-32 {
+  font-size: 3.2rem;
+}
+
+.text-15 {
+  font-size: 1.5rem;
+}
+
+.text-64 {
+  font-size: 6.4rem;
+  line-height: 8rem;
+}
+
+.feature-section {
+  margin-top: 30rem;
+  margin-bottom: 30rem;
+}
+
+.line-height {
+  line-height: 4.5rem;
+}
+
+.ready-trial {
+  width: 15rem;
 }
