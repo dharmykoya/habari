@@ -27,6 +27,7 @@ module.exports = {
       purple: colors.violet,
       pink: colors.pink,
       "habari-black": "#333758",
+      "habari-border": "#EFEFF2",
     },
     spacing: {
       px: "1px",

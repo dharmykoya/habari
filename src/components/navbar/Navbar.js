@@ -25,15 +25,15 @@ const Navbar = () => {
           "mx-4"
         )}
       >
-        <div className="text-text-14 text-habari-black md-flex">
-          <div className="my-4">Products</div>
-          <div className="my-4">Pricing</div>
-          <div className="my-4">Support</div>
-          <div className="my-4">Documentation</div>
-          <div className="my-4">Login</div>
-          <div className="my-4">Create Account</div>
-          <div className="my-4 flex">
-            <img src={flag} alt="flag" />
+        <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5  md:border-b border-habari-border py-4">
+          <div className="my-4 mx-5">Products</div>
+          <div className="my-4 mx-5">Pricing</div>
+          <div className="my-4 mx-5">Support</div>
+          <div className="my-4 mx-5">Documentation</div>
+          <div className="my-4 mx-5">Login</div>
+          <div className="my-4 mx-5">Create Account</div>
+          <div className="my-4 pl-5 flex items-center md:border-l border-habari-border">
+            <img src={flag} alt="flag" className="mr-4" />
             <ArrowDownIcon width="15" height="15" fill="#2D4875" />
           </div>
         </div>
