@@ -25,7 +25,8 @@ const Navbar = () => {
           "mx-4"
         )}
       >
-        <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5  md:border-b border-habari-border py-4">
+        {/* <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5  md:border-b border-habari-border py-4"> */}
+        <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5 py-4">
           <div className="my-4 mx-5">Products</div>
           <div className="my-4 mx-5">Pricing</div>
           <div className="my-4 mx-5">Support</div>

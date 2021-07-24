@@ -28,6 +28,9 @@ module.exports = {
       pink: colors.pink,
       "habari-black": "#333758",
       "habari-border": "#EFEFF2",
+      "habari-green": "#12B36C",
+      "habari-black-100": "#343758",
+      "habari-gray": "#BFBFBF",
     },
     spacing: {
       px: "1px",
