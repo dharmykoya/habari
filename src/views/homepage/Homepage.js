@@ -10,6 +10,7 @@ import SupportCard from "../../components/supportCard/SupportCard";
 import WorldIcon from "../../assets/icons/WorldIcon";
 import SalesMan from "../../assets/icons/SalesMan";
 import MoneyIcon from "../../assets/icons/MoneyIcon";
+import Footer from "../../components/footer/Footer";
 
 const solutions = [
   "Debit and Credit Cards",
@@ -24,9 +25,9 @@ const Homepage = () => {
   return (
     <div>
       <Navbar />
-      <div className="md:w-4/5 mx-auto">
+      <div className="mx-4 md:w-4/5 md:mx-auto">
         <section className="md:pt-56 border-t border-b border-habari-border py-4">
-          <div className="md:w-4/6 lg:w-2/4">
+          <div className="md:w-11/12 lg:w-2/4">
             <div className="text-habari-black banner-text">
               A faster & easier way to receive{" "}
               <span className="banner-span px-2">payments</span> online.
@@ -46,7 +47,7 @@ const Homepage = () => {
 
         <section className="mt-20 mb-20">
           <div>
-            <div className="grid grid-cols-3 gap-32 text-17">
+            <div className="grid grid-col-1 md:grid-cols-3 gap-32 text-17">
               <div className="flex">
                 <div className="mr-8 pt-2">
                   <CheckIcon />
@@ -85,7 +86,7 @@ const Homepage = () => {
         </section>
 
         <section className="feature-section">
-          <div className="grid grid-cols-2 gap-32 text-17">
+          <div className="grid md:grid-cols-2 gap-32 text-17">
             <div>
               <div className="text-17 text-habari-blue bg-habari-blue-100 w-min border-b-2 px-2 border-habari-blue-200">
                 Features
@@ -102,15 +103,15 @@ const Homepage = () => {
                 <ArrowRightIcon />
               </Link>
             </div>
-            <div>
+            <div className="flex items-center">
               <img src={card} alt="card" />
             </div>
           </div>
         </section>
 
         <section className="feature-section">
-          <div className="grid grid-cols-2 gap-32 text-17">
-            <div>
+          <div className="grid lg:grid-cols-2 gap-32 text-17">
+            <div className="flex items-center">
               <img src={blackwoman} alt="card" />
             </div>
             <div>
@@ -126,7 +127,7 @@ const Homepage = () => {
                 customers and unlock new revenue streams.
               </p>
               <div>
-                <div className="grid grid-cols-2 text-17">
+                <div className="grid md:grid-cols-2 text-17">
                   {solutions?.map((soln, index) => (
                     <div key={index + 1} className="flex my-4 items-center">
                       <div className="mr-6">
@@ -149,7 +150,7 @@ const Homepage = () => {
 
         <section className="feature-section">
           <div className="">
-            <div className="md:w-3/5">
+            <div className="md:w-4/5 lg:w-3/5">
               <div className="text-17 text-habari-blue-400 bg-habari-blue-500 w-min border-b-2 px-2 border-habari-blue-600">
                 Support
               </div>
@@ -163,7 +164,7 @@ const Homepage = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-3 mt-32">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 mt-32 gap-y-10 gap-x-4">
               <SupportCard
                 icon={<WorldIcon />}
                 title="Scuad for Global Brands"
@@ -184,7 +185,7 @@ const Homepage = () => {
         </section>
 
         <section className="pb-64 border-b border-habari-border ">
-          <div className="flex">
+          <div className="flex flex-col md:flex-row">
             <div className="md:w-3/5">
               <div className="text-17 text-habari-green bg-habari-green-100 max-w-xs ready-trial border-b-2 px-2 border-habari-green-200">
                 Ready for a trial ?
@@ -194,7 +195,7 @@ const Homepage = () => {
                 <span className="banner-span px-2">payments</span> in minutes
               </h3>
             </div>
-            <div className="my-auto ml-auto">
+            <div className="my-auto md:ml-auto">
               <button className="bg-habari-green text-white text-text-14 font-bold px-10 py-7 rounded-lg">
                 Create a free Account
               </button>
@@ -203,9 +204,7 @@ const Homepage = () => {
         </section>
       </div>
 
-      <div className="my-4">
-        <Navbar />
-      </div>
+      <Footer />
     </div>
   );
 };
