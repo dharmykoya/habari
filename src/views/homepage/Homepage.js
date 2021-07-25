@@ -11,7 +11,6 @@ import WorldIcon from "../../assets/icons/WorldIcon";
 import SalesMan from "../../assets/icons/SalesMan";
 import MoneyIcon from "../../assets/icons/MoneyIcon";
 import Footer from "../../components/footer/Footer";
-import Button from "../../components/button/Button";
 
 const solutions = [
   "Debit and Credit Cards",
@@ -39,7 +38,9 @@ const Homepage = () => {
               smarter and simpler
             </div>
             <div className="mt-24 mb-32">
-              <Button handleClick={() => {}} buttonText="Create an Account" />
+              <button className="bg-habari-green text-white text-text-14 font-bold px-10 py-7 rounded-lg">
+                Create an Account
+              </button>
             </div>
           </div>
         </section>
@@ -48,7 +49,7 @@ const Homepage = () => {
           <div>
             <div className="grid grid-col-1 md:grid-cols-3 gap-32 text-17">
               <div className="flex">
-                <div className="mr-8 md:pt-2">
+                <div className="mr-8 pt-2">
                   <CheckIcon />
                 </div>
                 <div className="text-habari-gray font-medium">
@@ -57,7 +58,7 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="flex">
-                <div className="mr-8 md:pt-2">
+                <div className="mr-8 pt-2">
                   <CheckIcon />
                 </div>
                 <div className="text-habari-gray font-medium">
@@ -66,7 +67,7 @@ const Homepage = () => {
                 </div>
               </div>
               <div className="flex">
-                <div className="mr-8 md:pt-2">
+                <div className="mr-8 pt-2">
                   <CheckIcon />
                 </div>
                 <div className="text-habari-gray font-medium">
@@ -195,10 +196,9 @@ const Homepage = () => {
               </h3>
             </div>
             <div className="my-auto md:ml-auto">
-              <Button
-                handleClick={() => {}}
-                buttonText="Create a free Account"
-              />
+              <button className="bg-habari-green text-white text-text-14 font-bold px-10 py-7 rounded-lg">
+                Create a free Account
+              </button>
             </div>
           </div>
         </section>

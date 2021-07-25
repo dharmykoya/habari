@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import ArrowDownIcon from "../../assets/icons/ArrowDownIcon";
 import flag from "../../assets/images/navbar/Flag.png";
 import Menu from "../../components/menu/Menu";
@@ -27,31 +26,16 @@ const Navbar = () => {
         )}
       >
         <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5 py-4">
-          <Link to="/" className="my-4 mx-5">
-            Products
-          </Link>
-          <Link to="/" className="my-4 mx-5">
-            Pricing
-          </Link>
-          <Link to="/" className="my-4 mx-5">
-            Support
-          </Link>
-          <Link to="/" className="my-4 mx-5">
-            Documentation
-          </Link>
-          <Link to="/" className="my-4 mx-5">
-            Login
-          </Link>
-          <Link to="/" className="my-4 mx-5">
-            Create Account
-          </Link>
-          <Link
-            to="/"
-            className="my-4 pl-5 flex items-center md:border-l border-habari-border"
-          >
+          <div className="my-4 mx-5">Products</div>
+          <div className="my-4 mx-5">Pricing</div>
+          <div className="my-4 mx-5">Support</div>
+          <div className="my-4 mx-5">Documentation</div>
+          <div className="my-4 mx-5">Login</div>
+          <div className="my-4 mx-5">Create Account</div>
+          <div className="my-4 pl-5 flex items-center md:border-l border-habari-border">
             <img src={flag} alt="flag" className="mr-4" />
             <ArrowDownIcon width="15" height="15" fill="#2D4875" />
-          </Link>
+          </div>
         </div>
       </nav>
     </header>
