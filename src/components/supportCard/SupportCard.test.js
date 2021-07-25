@@ -20,6 +20,7 @@ test("renders support card", async () => {
   );
 
   const element = getByText("title");
+  
   const descriptionElement = getByText("my descriptions");
 
   expect(element).toBeInTheDocument();
