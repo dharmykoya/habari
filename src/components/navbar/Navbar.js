@@ -15,8 +15,8 @@ const Navbar = () => {
     setOpenNavbar(!openNavbar);
   };
   return (
-    <header>
-      <div className="flex justify-end mr-4 mt-4 nav-link-toggle md:hidden">
+    <header className="mx-auto">
+      <div className="mr-4 mt-4 nav-link-toggle">
         <Menu handleClick={toggleNavbar} />
       </div>
       <nav
@@ -25,7 +25,6 @@ const Navbar = () => {
           "mx-4"
         )}
       >
-        {/* <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5  md:border-b border-habari-border py-4"> */}
         <div className="text-text-14 text-habari-black md:flex justify-end items-center mx-auto md:w-4/5 py-4">
           <div className="my-4 mx-5">Products</div>
           <div className="my-4 mx-5">Pricing</div>

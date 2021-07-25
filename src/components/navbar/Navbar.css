@@ -5,12 +5,19 @@
   transition: all 0.5s ease;
 }
 
+.nav-link-toggle {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media only screen and (min-width: 868px) {
   .nav-items {
     display: flex;
   }
+}
 
-  /* .nav-link-toggle {
-    display: hidden;
-  } */
+@media only screen and (min-width: 869px) {
+  .nav-link-toggle {
+    display: none;
+  }
 }
